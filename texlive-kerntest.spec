@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/kerntest
+# catalog-date 2007-03-08 21:58:53 +0100
+# catalog-license lppl
+# catalog-version 1.32
 Name:		texlive-kerntest
 Version:	1.32
 Release:	1
@@ -74,6 +80,7 @@ virtual font for later use in LaTeX.
 %doc %{_texmfdistdir}/source/latex/kerntest/Makefile
 %doc %{_texmfdistdir}/source/latex/kerntest/kerntest.dtx
 %doc %{_texmfdistdir}/source/latex/kerntest/kerntest.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -84,3 +91,5 @@ virtual font for later use in LaTeX.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
