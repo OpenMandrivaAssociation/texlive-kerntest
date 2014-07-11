@@ -6,7 +6,7 @@
 # catalog-version 1.32
 Name:		texlive-kerntest
 Version:	1.32
-Release:	7
+Release:	8
 Summary:	Print tables and generate control files to adjust kernings
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/kerntest
