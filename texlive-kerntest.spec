@@ -1,6 +1,6 @@
 Name:		texlive-kerntest
 Version:	15878
-Release:	1
+Release:	2
 Summary:	Print tables and generate control files to adjust kernings
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/kerntest
