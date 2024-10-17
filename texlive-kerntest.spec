@@ -3,7 +3,7 @@ Version:	15878
 Release:	2
 Summary:	Print tables and generate control files to adjust kernings
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/kerntest
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/kerntest
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/kerntest.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/kerntest.doc.r%{version}.tar.xz
